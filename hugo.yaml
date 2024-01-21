@@ -30,9 +30,9 @@ menu:
     #   weight: 1
     - name: <i class='fa fa-github fa-2x' aria-hidden='true'></i>
       title: Github
-      url: https://github.com/me/
-      weight: 3
+      url: https://github.com/bgould/
+      weight: 1
     - name: <i class='fa fa-mastodon fa-2x' aria-hidden='true'></i>
       title: Mastodon
-      url: https://social.tinygo.org/bgould/
+      url: https://social.tinygo.org/@bgould/
       weight: 3
