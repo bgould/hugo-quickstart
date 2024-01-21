@@ -1,0 +1,38 @@
+baseURL: 'https://bgould.github.io/'
+languageCode: 'en-us'
+title: 'BCG'
+
+theme:
+  - github.com/ukaszg/hugo-burnz
+
+menu:
+  main: # main menu is on the topbar, there is no .Pre or .Post
+    - name: <i class='fa fa-align-left' aria-hidden='true'></i> projects
+      title: Projects
+      url: projects/
+      weight: 10
+    - name: <i class='fa fa-align-left' aria-hidden='true'></i> posts
+      title: Posts
+      url: posts/
+      weight: 20
+    # - name: <i class='fa fa-tags' aria-hidden='true'></i> tags
+    #   title: Tags
+    #   url: tags/
+    #   weight: 2
+    - name: <i class='fa fa-feed' aria-hidden='true'></i> RSS
+      title: RSS
+      url: posts/index.xml
+      weight: 30
+  social: # (meant to display icons only) is shown below your photo on homepage
+    # - name: <i class='fa fa-envelope fa-2x' aria-hidden='true'></i>
+    #   title: Email
+    #   url: mailto:me@example.com
+    #   weight: 1
+    - name: <i class='fa fa-github fa-2x' aria-hidden='true'></i>
+      title: Github
+      url: https://github.com/me/
+      weight: 3
+    - name: <i class='fa fa-mastodon fa-2x' aria-hidden='true'></i>
+      title: Mastodon
+      url: https://social.tinygo.org/bgould/
+      weight: 3
